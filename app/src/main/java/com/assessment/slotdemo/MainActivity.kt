@@ -48,6 +48,6 @@ fun ButtonDemo() {
 @Composable
 fun GreetingPreview() {
     SlotDemoTheme {
-        SlotDemo() {ButtonDemo()}
+        SlotDemo {ButtonDemo()}
     }
 }
